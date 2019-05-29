@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Video Locadora CineVideo"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelCadastroAtor" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="306" max="-2" attributes="0"/>
+                      <Component id="jLabelTitulo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Component id="jLabelTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanelCadastroAtor" min="-2" pref="231" max="-2" attributes="0"/>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelTitulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Calibri" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cadastro de Ator"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanelCadastroAtor">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[780, 400]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jButtonSalvar" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelNacionalidade" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelNome" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jTextFieldNome" max="32767" attributes="0"/>
+                              <Component id="jComboBoxNacionalidade" pref="560" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="jButtonLimpar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="jButtonCancelar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="jButtonConsultar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="53" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTextFieldNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabelNacionalidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBoxNacionalidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButtonSalvar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonConsultar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="52" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelNome">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nome:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldNome">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="12" style="0"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Informe o nome do ator"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelNacionalidade">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nacionalidade:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBoxNacionalidade">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="18" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="112">
+                <StringItem index="0" value="Selecione uma nacionalidade"/>
+                <StringItem index="1" value="Ant&#xed;gua e Barbuda - Antiguano"/>
+                <StringItem index="2" value="Argentina - Argentino"/>
+                <StringItem index="3" value="Bahamas - Bahamense"/>
+                <StringItem index="4" value="Barbados - Barbadiano, barbadense"/>
+                <StringItem index="5" value="Belize - Belizenho"/>
+                <StringItem index="6" value="Bol&#xed;via - Boliviano"/>
+                <StringItem index="7" value="Brasil - Brasileiro"/>
+                <StringItem index="8" value="Chile - Chileno"/>
+                <StringItem index="9" value="Col&#xf4;mbia - Colombiano"/>
+                <StringItem index="10" value="Costa Rica - Costarriquenho"/>
+                <StringItem index="11" value="Cuba - Cubano"/>
+                <StringItem index="12" value="Dominica - Dominicano"/>
+                <StringItem index="13" value="Equador - Equatoriano"/>
+                <StringItem index="14" value="El Salvador - Salvadorenho"/>
+                <StringItem index="15" value="Granada - Granadino"/>
+                <StringItem index="16" value="Guatemala - Guatemalteco"/>
+                <StringItem index="17" value="Guiana - Guian&#xea;s"/>
+                <StringItem index="18" value="Guiana Francesa - Guianense"/>
+                <StringItem index="19" value="Haiti - Haitiano"/>
+                <StringItem index="20" value="Honduras - Hondurenho"/>
+                <StringItem index="21" value="Jamaica - Jamaicano"/>
+                <StringItem index="22" value="M&#xe9;xico - Mexicano"/>
+                <StringItem index="23" value="Nicar&#xe1;gua - Nicaraguense"/>
+                <StringItem index="24" value="Panam&#xe1; - Panamenho"/>
+                <StringItem index="25" value="Paraguai - Paraguaio"/>
+                <StringItem index="26" value="Peru - Peruano"/>
+                <StringItem index="27" value="Porto Rico - Portorriquenho"/>
+                <StringItem index="28" value="Rep&#xfa;blica Dominicana - Dominicana"/>
+                <StringItem index="29" value="S&#xe3;o Crist&#xf3;v&#xe3;o e Nevis - S&#xe3;o-cristovense"/>
+                <StringItem index="30" value="S&#xe3;o Vicente e Granadinas - S&#xe3;o-vicentino"/>
+                <StringItem index="31" value="Santa L&#xfa;cia - Santa-lucense"/>
+                <StringItem index="32" value="Suriname - Surinam&#xea;s"/>
+                <StringItem index="33" value="Trinidad e Tobago - Trindadense"/>
+                <StringItem index="34" value="Uruguai - Uruguaio"/>
+                <StringItem index="35" value="Venezuela - Venezuelano"/>
+                <StringItem index="36" value="Alemanha - Alem&#xe3;o"/>
+                <StringItem index="37" value="&#xc1;ustria - Austr&#xed;aco"/>
+                <StringItem index="38" value="B&#xe9;lgica - Belga"/>
+                <StringItem index="39" value="Cro&#xe1;cia - Croata"/>
+                <StringItem index="40" value="Dinamarca - Dinamarqu&#xea;s"/>
+                <StringItem index="41" value="Eslov&#xe1;quia - Eslovaco"/>
+                <StringItem index="42" value="Eslov&#xea;nia - Esloveno"/>
+                <StringItem index="43" value="Espanha - Espanhol"/>
+                <StringItem index="44" value="Fran&#xe7;a - Franc&#xea;s"/>
+                <StringItem index="45" value="Gr&#xe9;cia - Grego"/>
+                <StringItem index="46" value="Hungria - H&#xfa;ngaro"/>
+                <StringItem index="47" value="Irlanda - Irland&#xea;s"/>
+                <StringItem index="48" value="It&#xe1;lia - Italiano"/>
+                <StringItem index="49" value="Noruega - Noruego"/>
+                <StringItem index="50" value="Pa&#xed;ses Baixos - Holand&#xea;s"/>
+                <StringItem index="51" value="Pol&#xf4;nia - Polon&#xea;s"/>
+                <StringItem index="52" value="Portugal - Portugu&#xea;s"/>
+                <StringItem index="53" value="Reino Unido - Brit&#xe2;nico"/>
+                <StringItem index="54" value="Inglaterra - Ingl&#xea;s"/>
+                <StringItem index="55" value="Pa&#xed;s de Gales - Gal&#xea;s"/>
+                <StringItem index="56" value="Esc&#xf3;cia - Escoc&#xea;s"/>
+                <StringItem index="57" value="Rom&#xea;nia - Romeno"/>
+                <StringItem index="58" value="R&#xfa;ssia - Russo"/>
+                <StringItem index="59" value="S&#xe9;rvio - S&#xe9;rvio"/>
+                <StringItem index="60" value="Su&#xe9;cia - Sueco"/>
+                <StringItem index="61" value="Su&#xed;&#xe7;a - Su&#xed;&#xe7;o"/>
+                <StringItem index="62" value="Turquia - Turco"/>
+                <StringItem index="63" value="Ucr&#xe2;nia - Ucraniano"/>
+                <StringItem index="64" value="Estados Unidos - Americano"/>
+                <StringItem index="65" value="Canad&#xe1; - Canadense"/>
+                <StringItem index="66" value="Angola - Angolano"/>
+                <StringItem index="67" value="Mo&#xe7;ambique - Mo&#xe7;ambicano"/>
+                <StringItem index="68" value="&#xc1;frica do Sul - Sul-africano"/>
+                <StringItem index="69" value="Zimbabue - Zimbabuense"/>
+                <StringItem index="70" value="Arg&#xe9;lia - Arg&#xe9;lia"/>
+                <StringItem index="71" value="Comores - Comorense"/>
+                <StringItem index="72" value="Egito - Eg&#xed;pcio"/>
+                <StringItem index="73" value="L&#xed;bia - L&#xed;bio"/>
+                <StringItem index="74" value="Marrocos - Marroquino"/>
+                <StringItem index="75" value="Gana - Gan&#xe9;s"/>
+                <StringItem index="76" value="Qu&#xea;nia - Queniano"/>
+                <StringItem index="77" value="Ruanda - Ruand&#xea;s"/>
+                <StringItem index="78" value="Uganda - Ugandense"/>
+                <StringItem index="79" value="Botsuana - Bechuano"/>
+                <StringItem index="80" value="Costa do Marfim - Marfinense"/>
+                <StringItem index="81" value="Camar&#xf5;es - Camaronense"/>
+                <StringItem index="82" value="Nig&#xe9;ria - Nigeriano"/>
+                <StringItem index="83" value="Som&#xe1;lia - Somali"/>
+                <StringItem index="84" value="Austr&#xe1;lia - Australiano"/>
+                <StringItem index="85" value="Nova Zel&#xe2;ndia - Neozeland&#xea;s"/>
+                <StringItem index="86" value="Afeganist&#xe3;o - Afeg&#xe3;o"/>
+                <StringItem index="87" value="Ar&#xe1;bia Saudita - Saudita"/>
+                <StringItem index="88" value="Arm&#xea;nia - Armeno"/>
+                <StringItem index="89" value="Armeno - Bangladesh"/>
+                <StringItem index="90" value="China - Chin&#xea;s"/>
+                <StringItem index="91" value="Cor&#xe9;ia do Norte - Norte-coreano, coreano"/>
+                <StringItem index="92" value="Cor&#xe9;ia do Sul - Sul-coreano, coreano"/>
+                <StringItem index="93" value="&#xcd;ndia - Indiano"/>
+                <StringItem index="94" value="Indon&#xe9;sia - Indon&#xe9;sio"/>
+                <StringItem index="95" value="Iraque - Iraquiano"/>
+                <StringItem index="96" value="Ir&#xe3; - Iraniano"/>
+                <StringItem index="97" value="Israel - Israelita"/>
+                <StringItem index="98" value="Jap&#xe3;o - Japon&#xea;s"/>
+                <StringItem index="99" value="Mal&#xe1;sia - Malaio"/>
+                <StringItem index="100" value="Nepal - Nepal&#xea;s"/>
+                <StringItem index="101" value="Om&#xe3; - Omanense"/>
+                <StringItem index="102" value="Paquist&#xe3;o - Paquistan&#xea;s"/>
+                <StringItem index="103" value="Palestina - Palestino"/>
+                <StringItem index="104" value="Qatar - Qatarense"/>
+                <StringItem index="105" value="S&#xed;ria - S&#xed;rio"/>
+                <StringItem index="106" value="Sri Lanka - Cingal&#xea;s"/>
+                <StringItem index="107" value="Tail&#xe2;ndia - Tailand&#xea;s"/>
+                <StringItem index="108" value="Timor-Leste - Timorense, maubere"/>
+                <StringItem index="109" value="Emirados &#xc1;rabes Unidos - &#xc1;rabe, emiratense"/>
+                <StringItem index="110" value="Vietn&#xe3; - Vietnamita"/>
+                <StringItem index="111" value="I&#xea;men - Iemenita"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonSalvar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Salvar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonLimpar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Limpar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonCancelar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cancelar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonConsultar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Consultar"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
