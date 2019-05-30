@@ -27,20 +27,176 @@ public class TelaCadastroCliente extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabelTitulo = new javax.swing.JLabel();
+        jPanelCadastroCliente = new javax.swing.JPanel();
+        jLabelNome = new javax.swing.JLabel();
+        jTextFieldNome = new javax.swing.JTextField();
+        jLabelDtNascimento = new javax.swing.JLabel();
+        jFormattedTextFieldDtNascimento = new javax.swing.JFormattedTextField();
+        jLabelCPF = new javax.swing.JLabel();
+        jFormattedTextFieldCPF = new javax.swing.JFormattedTextField();
+        jLabelEmail = new javax.swing.JLabel();
+        jTextFieldEmail = new javax.swing.JTextField();
+        jLabelEndereco = new javax.swing.JLabel();
+        jTextFieldEndereco = new javax.swing.JTextField();
+        jButtonSalvar = new javax.swing.JButton();
+        jButtonLimpar = new javax.swing.JButton();
+        jButtonCancelar = new javax.swing.JButton();
+        jButtonConsultar = new javax.swing.JButton();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Video Locadora CineVideos");
+        setResizable(false);
+
+        jLabelTitulo.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        jLabelTitulo.setText("Cadastro de Cliente");
+
+        jPanelCadastroCliente.setBackground(new java.awt.Color(153, 153, 153));
+        jPanelCadastroCliente.setPreferredSize(new java.awt.Dimension(780, 400));
+
+        jLabelNome.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        jLabelNome.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelNome.setText("Nome:");
+
+        jTextFieldNome.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+        jTextFieldNome.setToolTipText("Digite o nome do cliente");
+
+        jLabelDtNascimento.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        jLabelDtNascimento.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelDtNascimento.setText("Data de Nascimento:");
+
+        try {
+            jFormattedTextFieldDtNascimento.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("##/##/####")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+        jFormattedTextFieldDtNascimento.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+
+        jLabelCPF.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        jLabelCPF.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelCPF.setText("CPF:");
+
+        try {
+            jFormattedTextFieldCPF.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("###.###.###-##")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+        jFormattedTextFieldCPF.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+
+        jLabelEmail.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        jLabelEmail.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelEmail.setText("E-mail:");
+
+        jTextFieldEmail.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+        jTextFieldEmail.setToolTipText("Informe o e-mail do cliente");
+
+        jLabelEndereco.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        jLabelEndereco.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelEndereco.setText("Endereço:");
+
+        jTextFieldEndereco.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+        jTextFieldEndereco.setToolTipText("Informe o endereço do cliente:");
+
+        jButtonSalvar.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        jButtonSalvar.setText("Salvar");
+
+        jButtonLimpar.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        jButtonLimpar.setText("Limpar");
+
+        jButtonCancelar.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        jButtonCancelar.setText("Cancelar");
+
+        jButtonConsultar.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        jButtonConsultar.setText("Consultar");
+
+        javax.swing.GroupLayout jPanelCadastroClienteLayout = new javax.swing.GroupLayout(jPanelCadastroCliente);
+        jPanelCadastroCliente.setLayout(jPanelCadastroClienteLayout);
+        jPanelCadastroClienteLayout.setHorizontalGroup(
+            jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanelCadastroClienteLayout.createSequentialGroup()
+                .addGap(35, 35, 35)
+                .addGroup(jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabelEmail)
+                    .addComponent(jLabelCPF)
+                    .addComponent(jLabelDtNascimento)
+                    .addComponent(jLabelNome)
+                    .addGroup(jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jButtonSalvar)
+                        .addComponent(jLabelEndereco)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTextFieldEndereco, javax.swing.GroupLayout.PREFERRED_SIZE, 560, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldNome, javax.swing.GroupLayout.PREFERRED_SIZE, 560, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jFormattedTextFieldDtNascimento, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jFormattedTextFieldCPF, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 496, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanelCadastroClienteLayout.createSequentialGroup()
+                        .addGap(33, 33, 33)
+                        .addComponent(jButtonLimpar)
+                        .addGap(45, 45, 45)
+                        .addComponent(jButtonCancelar)
+                        .addGap(44, 44, 44)
+                        .addComponent(jButtonConsultar)))
+                .addContainerGap(13, Short.MAX_VALUE))
+        );
+        jPanelCadastroClienteLayout.setVerticalGroup(
+            jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanelCadastroClienteLayout.createSequentialGroup()
+                .addGap(28, 28, 28)
+                .addGroup(jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextFieldNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabelNome))
+                .addGap(34, 34, 34)
+                .addGroup(jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabelDtNascimento)
+                    .addComponent(jFormattedTextFieldDtNascimento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(35, 35, 35)
+                .addGroup(jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabelCPF)
+                    .addComponent(jFormattedTextFieldCPF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(39, 39, 39)
+                .addGroup(jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabelEmail)
+                    .addComponent(jTextFieldEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(34, 34, 34)
+                .addGroup(jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabelEndereco)
+                    .addComponent(jTextFieldEndereco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(33, 33, 33)
+                .addGroup(jPanelCadastroClienteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButtonSalvar)
+                    .addComponent(jButtonLimpar)
+                    .addComponent(jButtonCancelar)
+                    .addComponent(jButtonConsultar))
+                .addContainerGap(46, Short.MAX_VALUE))
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanelCadastroCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(299, 299, 299)
+                        .addComponent(jLabelTitulo)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(35, 35, 35)
+                .addComponent(jLabelTitulo)
+                .addGap(28, 28, 28)
+                .addComponent(jPanelCadastroCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
@@ -79,5 +235,21 @@ public class TelaCadastroCliente extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButtonCancelar;
+    private javax.swing.JButton jButtonConsultar;
+    private javax.swing.JButton jButtonLimpar;
+    private javax.swing.JButton jButtonSalvar;
+    private javax.swing.JFormattedTextField jFormattedTextFieldCPF;
+    private javax.swing.JFormattedTextField jFormattedTextFieldDtNascimento;
+    private javax.swing.JLabel jLabelCPF;
+    private javax.swing.JLabel jLabelDtNascimento;
+    private javax.swing.JLabel jLabelEmail;
+    private javax.swing.JLabel jLabelEndereco;
+    private javax.swing.JLabel jLabelNome;
+    private javax.swing.JLabel jLabelTitulo;
+    private javax.swing.JPanel jPanelCadastroCliente;
+    private javax.swing.JTextField jTextFieldEmail;
+    private javax.swing.JTextField jTextFieldEndereco;
+    private javax.swing.JTextField jTextFieldNome;
     // End of variables declaration//GEN-END:variables
 }
